@@ -28,12 +28,12 @@ public class Subscription {
 	@Size(min=1)
 	private String subscriptionName;
 	
-	@Min(0)
+	// @Min(0)
 	private double price;
 	
 	private boolean status;
 	
-	@Size(min=1, max=31)
+	// @Size(min=1, max=31)
 	private int due;
 	
 	
